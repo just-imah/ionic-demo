@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Router } from '@angular/router'
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-main-login',
@@ -8,11 +8,11 @@ import { Router } from '@angular/router'
 })
 export class MainLoginPage implements OnInit {
 
-  constructor( private router : Router ) { }
+  constructor( private router: Router ) { }
 
   ngOnInit() {
   }
   logIn() {
-      this.router.navigate(['./menu'])
+    this.router.navigate(['./menu']);
     }
 }

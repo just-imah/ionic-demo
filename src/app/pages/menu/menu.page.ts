@@ -9,9 +9,7 @@ import { MenuController } from '@ionic/angular'; //import MenuController to acce
 export class MenuPage {
   constructor(
   public menuCtrl: MenuController
-  ) {
-    // this.initializeApp();  
-  }
+  ) {}
   toggleMenu() {
     this.menuCtrl.toggle();
   }

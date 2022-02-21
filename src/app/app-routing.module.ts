@@ -13,16 +13,16 @@ const routes: Routes = [
   },
   {
     path: 'login',
-    loadChildren: () => import('./login/login.module').then( m => m.LoginPageModule)
+    loadChildren: () => import('./pages/login/login.module').then( m => m.LoginPageModule)
   },
 
   {
     path: 'main-login',
-    loadChildren: () => import('./main-login/main-login.module').then( m => m.MainLoginPageModule)
+    loadChildren: () => import('./pages/main-login/main-login.module').then( m => m.MainLoginPageModule)
   },
   {
     path: 'menu',
-    loadChildren: () => import('./menu/menu.module').then( m => m.MenuPageModule)
+    loadChildren: () => import('./pages/menu/menu.module').then( m => m.MenuPageModule)
   },
 ];
 
