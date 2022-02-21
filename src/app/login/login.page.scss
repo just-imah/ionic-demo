@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Moon+Dance&family=Roboto+Mono:ital,wght@0,300;0,400;0,600;1,100;1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Redressed&display=swap');
+
+
+ion-content{
+    --background: #ccc url("../../assets/war.jpg") no-repeat center center / cover;
+}
+.hero h3{
+    color: #000;
+    font-family:  'Redressed', cursive;
+    font-size: 30px;
+    font-weight: bold;
+}
+.hero-span{
+    color: #000;
+    font-size: 65px;
+}
+.hero-btn{
+    position: relative;
+    top: 10rem;
+}
+.herobtn{
+    background-color: #B37E22 !important;
+}
+:root {
+  --ion-color-favorite: #b37e22;
+  --ion-color-favorite-rgb: 105, 187, 123;
+  --ion-color-favorite-contrast: #b37e22;
+  --ion-color-favorite-contrast-rgb: 255, 255, 255;
+  --ion-color-favorite-shade: #5ca56c;
+  --ion-color-favorite-tint: #78c288;
+}
+.ion-color-favorite {
+  --ion-color-base: var(--ion-color-favorite);
+  --ion-color-base-rgb: var(--ion-color-favorite-rgb);
+  --ion-color-contrast: var(--ion-color-favorite-contrast);
+  --ion-color-contrast-rgb: var(--ion-color-favorite-contrast-rgb);
+  --ion-color-shade: var(--ion-color-favorite-shade);
+  --ion-color-tint: var(--ion-color-favorite-tint);
+}

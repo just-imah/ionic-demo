@@ -1,0 +1,28 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>login</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div class="container mainLogin text-center">
+    <div>
+      <h3>Welcome back to 
+       <br>
+       <span class="mt-3"> Stalker</span>
+      </h3>
+    </div>
+    <div class="mainLogin-input">
+      <ion-item>
+        <ion-input placeholder="username"></ion-input>
+      </ion-item>
+      <br>
+      <ion-item>
+        <ion-input placeholder="password" type="password" max="6"></ion-input>
+      </ion-item>
+      <span class="text-black">Forgot Password?</span>
+      <br>
+      <ion-button class="ionbtn"  (click)="logIn()">Login</ion-button> 
+    </div>
+  </div>
+</ion-content>

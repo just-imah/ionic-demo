@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Redressed&display=swap');
+
+ion-content{
+    --background: #ccc url("../../assets/wat.jpg") no-repeat center center / cover;
+    background-size: cover;
+}
+.mainLogin{
+    font-family:  'Redressed', cursive;
+    margin-top: 6rem;
+}
+.mainLogin-input{
+    position: relative;
+    top: 7rem;
+    background-color: transparent;
+}
+.ion-item.ion-input {
+    --background-color: transparent ;
+}
+// .ionbtn{
+//     margin-left: 4rem;
+// }
